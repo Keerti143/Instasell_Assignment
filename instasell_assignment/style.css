@@ -1,0 +1,147 @@
+
+body{
+  padding: 3pc;
+  margin: 2px;
+  
+}
+nav{
+  text-decoration: dashed;
+  padding-left:2pc;
+  padding-right:2pc;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2pc;
+  padding: 1pc;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+#sear{
+  margin-left: 5pc;
+}
+#col1{
+  
+    
+    height: 30%;
+    background-color: rgb(253, 248, 242);
+    padding-left: 3pc;
+    padding-top: 3pc;
+    padding-bottom: 3pc;
+   
+  
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2{
+  padding-bottom: 3px;
+  padding-top: 5px;
+  margin-top: 6px;
+}
+.but1{
+  background-color: #090a0a; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.but2{
+  background-color: #f4f6f6; /* Green */
+  border: none;
+  color: rgb(12, 12, 12);
+  margin-right: 5px;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.but3{
+  background-color: white;
+  border: #f4f6f6;
+  border-radius: 3px;
+}
+button:hover {
+    background-color: rgb(61, 61, 57);
+  }
+
+#col2{
+  height: 30%;
+  background-color: rgb(255, 244, 230);
+  padding-left: 3pc;
+  padding-top: 1pc;
+  padding-bottom: 3pc;
+}
+.column1 {
+  float: left;
+  width: 38%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  
+}
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  
+}
+.but4{
+  background-color: rgb(175, 175, 175);
+  border: #f4f6f6;
+  border-radius: 3px;
+}
+.ord{
+  padding:4px;
+  margin: 2px;
+  border-radius: 15px;
+}
+#col3{
+  height: 30%;
+  background-color: rgb(253, 248, 242);
+  padding-left: 3pc;
+  padding-top: 1pc;
+  padding-bottom: 3pc;
+}
+.cool{
+  width: 65%;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.column4 {
+  float: left;
+  width: 35%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  
+}
+img{
+  width: 5%;
+}

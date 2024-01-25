@@ -1,0 +1,149 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instasell assignment</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-chartjs-2/dist/react-chartjs-2.min.js"></script>
+<!-- Include Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="">Home</a>
+    <a href="">Orders</a>
+    <a href="">Integrations</a>
+    <a href="">Tracking Page</a><i class="arrow down"></i>
+    <a href="">Partner With Us</a>
+    <i class="fa fa-search" id="sear"></i><a href="">Search</a>
+    <i class="material-icons">person</i><a href="">Account</a>
+    <i class="fa fa-gear"></i><a href="">Settings</a>
+   
+  </nav>
+<hr style=" border: 1px solid black;padding-bottom: 0%; margin-bottom: 0%; ">
+
+<div id="col1">
+  <h2><b>    Welcome, Jhon Mathew!!</b></h2>
+  <div class="row">
+    <div class="column" style="background-color: white;">
+    <h5><b>Order Syn Succesful!</b></h5>
+    <p>Your order details from the last 30 days have been successfully synced. Check then out now!</p>
+    <button class="but1">Explore Your Orders</button>
+    </div>
+    <div class="column" style="background-color: rgb(254, 231, 174);color: rgb(68, 50, 3);">
+    <h5>&#9888<b>Customize Customer Notification</b></h5>
+    <p>Tailor Your Email Experience: Set the Sender Email and Choose Notification Triggers.</p>
+    <button class="but1">Confidure Notifications</button>
+    
+    </div>
+    <div class="column" style="background-color: rgb(174, 232, 251);color: rgb(2, 33, 52);">
+      <h5>&#8505<b> Your Tracking Link has been genereted</b></h5>
+      <p>include the <a href="">Link</a> Your Store's Navigation Menu.</p>
+      <button class="but2">Copy Link</button><button class="but1">Go To Navigation Menu</button>
+    
+    </div>
+  </div>
+</div>
+<div id="col2">
+  <h2><b>Instant Dive into Your Performance Matrics</b></h2>
+  <button class="but3">Lifetime</button>
+  <button class="but3">Last Week</button>
+  <button class="but3">Last Month</button>
+  <button class="but3">Last Year</button>
+  <button class="but3">Customize Time Line &#128197</button>
+  <div class="row">
+    <div class="column1" style="background-color: white;">
+    <h5><b>Shipment Updates</b></h5>
+    <button class="but4">Delivered</button>
+  <button class="but4">Out for delivery</button>
+  <button class="but4">Intransit</button>
+  <button class="but4">Pending</button>
+
+
+   </div>
+    <div class="column2" style="background-color: rgb(121, 94, 7);color: rgb(242, 240, 234);">
+    <h5><b>Star Facts about your orders!!! </b></h5>
+    <p>There are 8 shipments that have been in out for delivery for more than 3 days.</p>
+    <p>There are 5 shipments in exception right now</p>
+    <p>The maximum chargebacks are from Miami</p>
+    <button class="but2">Check Orders Page</button>
+    
+    </div>
+    <div class="column1" style="background-color: rgb(245, 250, 251);color: rgb(22, 22, 22);">
+      <h5><b>Tracking Page Views Vs Orders</b></h5>
+      <p>Understand user engagement patterns and optimize your tracking page for enhanced customer experiences.</p>
+      <div class="ord" style="background-color: bisque;">
+        <h5>Orders </h5>
+        <h1>80 <i class="fa fa-shopping-cart" aria-hidden="true" style="float: right;"></i></h1>
+      </div>
+      <div class="ord" style="background-color: chocolate;">
+        <h5>Tracking Page Views</h5>
+        <h1>40 <i class="fa fa-eye" style="float: right;"></i></h1>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<div id="col3">
+<h2>Discover the Heart of Our Functionality</h2>
+<div class="row">
+  <div class="column" style="background-color: white;">
+  <h5><b>Elevate Your Brand Aesthetics with Custom Tracking Page Styles</b></h5>
+  <p>Immerse your customers in a branded experience by personalizing the colors on your tracking page.</p>
+  <label for="">Accent Color</label>
+  <p class="cool">FF9898</p>
+  <label for="">Text Color</label>
+  <p class="cool">571010</p>
+  <label for="">Background Color</label>
+  <p  class="cool">FFEAEA </p>
+  <button class="but2">Preview</button><button class="but1">Apply Colors</button>
+  </div>
+  <div class="column4">
+    <div class="col4" style="background-color: rgb(255, 255, 254);color: rgb(14, 13, 13); border-radius: 5px;margin: 5px; padding: 3px;">
+      <h5><b>Exclusive Onboarding Support for High-Volume Brands</b></h5>
+      <p>Unlock personalized guidance! Book a one-on-one on boarding call to streamline your experience.</p>
+      <button class="but1">Schedule A Call</button>
+    </div>
+    <div class="col5" style="background-color: rgb(255, 255, 254);color: rgb(14, 13, 13); border-radius: 5px;margin: 5px; padding: 3px;">
+      <h5><b>Explore Our Integrated Ecosystem</b></h5>
+  <p>Discover a varity of popular integrations taliored for your convenience.</p>
+  <img src="pay.png" alt="pay">
+  <img src="goo.png" alt="google">
+  <img src="insta.png" alt="google">
+  <img src="star.png" alt="star"><br>
+  <button class="but1">Explore Integrations</button>
+    </div>
+    
+  
+</div>
+<div class="column" style="background-color: rgb(251, 253, 253);color: rgb(13, 13, 13);">
+  <h5><b> Seamlessly integrate Custom HTML Elements</b></h5>
+  <p>Unleash creativity with our custom HTML feature. Add links, custom messages, or any HTML content to elevate the tracking page experience for your customers.</p>
+  <label for="">HTML Link</label><br>
+  <textarea id="w3review" name="w3review" rows="4" cols="30"></textarea>
+  <button class="but2">Preview</button><button class="but1">Apply changes</button>
+
+</div>
+
+</div>
+</body>
+</html>
